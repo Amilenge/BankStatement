@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "06ca2e4b-94fd-4329-82cd-5fedd311c5cc",
-		"name": "BankStatement",
+		"name": "Bank Solution",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -19,17 +19,29 @@
 				],
 				"body": {
 					"mode": "formdata",
-					"formdata": []
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": ""
+						},
+						{
+							"key": "bank",
+							"value": "absa",
+							"type": "text"
+						}
+					]
 				},
 				"url": {
-					"raw": "http://localhost:49351/",
+					"raw": "http://localhost:49351/api/file",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "49351",
 					"path": [
-						""
+						"api",
+						"file"
 					]
 				}
 			},

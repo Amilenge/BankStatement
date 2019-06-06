@@ -19,34 +19,6 @@ namespace FinacialStatement
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
-
-
-            /*
-            //routes.IgnoreRoute("views/");
-
-            //routes.IgnoreRoute("app/");
-
-
-
-            routes.MapRoute(
-                name: "Default",
-                url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional },
-                constraints: new
-                {
-                    serverRoute = new ServerRouteConstraint(url => {
-                        return url.PathAndQuery.StartsWith("/api", StringComparison.InvariantCultureIgnoreCase);
-                    })
-                }
-            );
-
-            
-            routes.MapRoute(
-                name: "Angular",
-                url: "{*url}",
-                defaults: new { controller = "Home", action = "Index" }
-            );
-            */
         }
     }
 }
