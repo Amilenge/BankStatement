@@ -2,16 +2,16 @@
     Used as configuration for each bank - remove comments if you want to modify this
 */
 {
-    "Deposit": [ "WESTERN UNION", "IBANK PAYMENT", "ACB CREDIT" ],
-    "Withdrawal": [ "ATM WITHDRAWAL" ],
-    "PrepaidElectricity": [ "AIRTIME DEBIT" ],
+    "Deposit": [  ],
+    "Withdrawal": [  ],
+    "PrepaidElectricity": [  ],
     "PrepaidAirtime": [],
-    "PaymentMade": [ "IBANK PAYMENT TO", "CASHSEND" ],
-    "PaymentReceived": [ "IBANK PAYMENT FROM" ],
-    "PointOfSale": [ "POS PURCHASE", "POS PUR" ],
-    "Purchase": [ "OVERSEAS PURCHASE" ],
-    "Charges": [ "TRANSACTION CHARGE", "ADMIN CHARGE", "MONTHLY ACC", "FOREIGN BANK CHARG" ],
-    "Fee": [ "NOTIFIC FEE" ],
+    "PaymentMade": [  ],
+    "PaymentReceived": [ ],
+    "PointOfSale": [  ],
+    "Purchase": [  ],
+    "Charges": [  ],
+    "Fee": [  ],
     "CsvColumnStructure": {
         /* Define bank specific column number as it is in the the bank CSV file, Must adhere to the Transaction class(object) */
         "Date": 0,

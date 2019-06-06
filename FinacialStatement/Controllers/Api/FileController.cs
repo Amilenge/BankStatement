@@ -22,6 +22,7 @@ namespace FinacialStatement.Controllers.Api
 
             if ( files.Count > 0 )
             {
+                // Loop if multiple files were submitted
                 foreach (string file in files)
                 {
                     var file_ = files[file];
@@ -48,16 +49,11 @@ namespace FinacialStatement.Controllers.Api
                     }
                 }
 
-                // TEST CALCULATIONS
-                List<Transaction> ttr = transaction[0].transactions;
-
-                //var data = ttr.GroupBy(x => x.TransactionType).Select(g => new { Type = g.Key , Total = g.Sum( x=> (x.Amount < 0)? -x.Amount : x.Amount ) });
-
                 return transaction;
             }
             else
             {
-                throw new Exception("at least one file must be provided");
+                throw new Exception("At least one file must be provided");
             }
         }
     }
