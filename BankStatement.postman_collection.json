@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "06ca2e4b-94fd-4329-82cd-5fedd311c5cc",
+		"name": "BankStatement",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Submit File to API",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://localhost:49351/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "49351",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
