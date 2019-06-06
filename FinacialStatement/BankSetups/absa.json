@@ -1,0 +1,20 @@
+{
+    "Deposit": [ "WESTERN UNION", "ACB CREDIT", "CARDLESS CASH DEP" ],
+    "Withdrawal": [ "ATM WITHDRAWAL" ],
+    "PrepaidElectricity": [ "PREPAID DEBIT" ],
+    "PrepaidAirtime": [ "AIRTIME DEBIT" ],
+    "PaymentMade": [ "IBANK PAYMENT TO", "CASHSEND", "IBANK TRANSFER", "INET IMMEDIATE PMT" ],
+    "PaymentReceived": [ "IBANK PAYMENT FROM" ],
+    "PointOfSale": [ "POS PURCHASE", "POS PUR" ],
+    "Purchase": [ "OVERSEAS PURCHASE" ],
+    "Charges": [ "TRANSACTION CHARGE", "ADMIN CHARGE", "MONTHLY ACC", "FOREIGN BANK CHARG" ],
+    "Fee": [ "NOTIFIC FEE", "INTERNET BANK FEE" ],
+    "CsvColumnStructure": {
+        "IgnoreTitleRow": true,
+        "Date": 0,
+        "Description": 1,
+        "TransactionType": null,
+        "Amount": 2,
+        "Balance": 3
+    }
+}
